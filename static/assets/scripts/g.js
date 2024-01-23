@@ -1898,3 +1898,17 @@ function search_bar() {
     }
   }
 }
+var username
+var user1 = 'guest'
+username = prompt('Please enter your username.', ' ')
+if (username == user1) alert('Username Correct, now enter your password')
+else {
+ window.location = 'google.com'
+}
+var password
+var pass1 = 'passguest'
+password = prompt('')
+if (password == pass1) alert('Password Correct, you may enter.')
+else {
+ window.location = 'google.com'
+}
